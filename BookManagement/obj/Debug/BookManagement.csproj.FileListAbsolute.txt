@@ -1,0 +1,16 @@
+C:\Users\PC\source\repos\BookManagement\bin\Debug\BookManagement.exe.config
+C:\Users\PC\source\repos\BookManagement\bin\Debug\BookManagement.exe
+C:\Users\PC\source\repos\BookManagement\bin\Debug\BookManagement.pdb
+C:\Users\PC\source\repos\BookManagement\bin\Debug\EntityFramework.dll
+C:\Users\PC\source\repos\BookManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\source\repos\BookManagement\bin\Debug\EntityFramework.xml
+C:\Users\PC\source\repos\BookManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\source\repos\BookManagement\obj\Debug\BookManagement.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\BookManagement\obj\Debug\BookManagement.Properties.Resources.resources
+C:\Users\PC\source\repos\BookManagement\obj\Debug\BookManagement.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\BookManagement\obj\Debug\BookManagement.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\BookManagement\obj\Debug\BookManagement.csproj.CopyComplete
+C:\Users\PC\source\repos\BookManagement\obj\Debug\BookManagement.exe
+C:\Users\PC\source\repos\BookManagement\obj\Debug\BookManagement.pdb
+C:\Users\PC\source\repos\BookManagement\obj\Debug\BookManagement.DetailForm.resources
+C:\Users\PC\source\repos\BookManagement\obj\Debug\BookManagement.MainForm.resources

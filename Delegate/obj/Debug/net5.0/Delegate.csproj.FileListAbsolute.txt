@@ -1,0 +1,16 @@
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\obj\Debug\net5.0\Delegate.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\obj\Debug\net5.0\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\obj\Debug\net5.0\Delegate.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\obj\Debug\net5.0\Delegate.AssemblyInfo.cs
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\obj\Debug\net5.0\Delegate.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\bin\Debug\net5.0\Delegate.exe
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\bin\Debug\net5.0\Delegate.deps.json
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\bin\Debug\net5.0\Delegate.runtimeconfig.json
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\bin\Debug\net5.0\Delegate.runtimeconfig.dev.json
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\bin\Debug\net5.0\Delegate.dll
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\bin\Debug\net5.0\ref\Delegate.dll
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\bin\Debug\net5.0\Delegate.pdb
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\obj\Debug\net5.0\Delegate.dll
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\obj\Debug\net5.0\ref\Delegate.dll
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\obj\Debug\net5.0\Delegate.pdb
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\Delegate\obj\Debug\net5.0\Delegate.genruntimeconfig.cache

@@ -1,0 +1,3 @@
+﻿  MovieAccess.cpp
+C:\Users\PC\source\repos\QLDVe\QLDVe\MovieAccess.cpp(48,14): warning C4101: 'PtrSQLVersion': unreferenced local variable
+  QLDVe.vcxproj -> C:\Users\PC\source\repos\QLDVe\Debug\QLDVe.exe

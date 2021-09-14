@@ -1,0 +1,16 @@
+C:\Users\PC\source\repos\EFCodeFirstPractice\obj\Debug\EFCodeFirstPractice.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\EFCodeFirstPractice\obj\Debug\EFCodeFirstPractice.GUI.Form1.resources
+C:\Users\PC\source\repos\EFCodeFirstPractice\obj\Debug\EFCodeFirstPractice.GUI.Form2.resources
+C:\Users\PC\source\repos\EFCodeFirstPractice\obj\Debug\EFCodeFirstPractice.Properties.Resources.resources
+C:\Users\PC\source\repos\EFCodeFirstPractice\obj\Debug\EFCodeFirstPractice.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\EFCodeFirstPractice\obj\Debug\EFCodeFirstPractice.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\EFCodeFirstPractice\bin\Debug\EFCodeFirstPractice.exe.config
+C:\Users\PC\source\repos\EFCodeFirstPractice\bin\Debug\EFCodeFirstPractice.exe
+C:\Users\PC\source\repos\EFCodeFirstPractice\bin\Debug\EFCodeFirstPractice.pdb
+C:\Users\PC\source\repos\EFCodeFirstPractice\bin\Debug\EntityFramework.dll
+C:\Users\PC\source\repos\EFCodeFirstPractice\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\source\repos\EFCodeFirstPractice\bin\Debug\EntityFramework.xml
+C:\Users\PC\source\repos\EFCodeFirstPractice\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\source\repos\EFCodeFirstPractice\obj\Debug\EFCodeFirstPractice.csproj.CopyComplete
+C:\Users\PC\source\repos\EFCodeFirstPractice\obj\Debug\EFCodeFirstPractice.exe
+C:\Users\PC\source\repos\EFCodeFirstPractice\obj\Debug\EFCodeFirstPractice.pdb

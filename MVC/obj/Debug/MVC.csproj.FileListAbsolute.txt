@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\MVC\obj\Debug\MVC.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\MVC\obj\Debug\MVC.Form1.resources
+C:\Users\PC\source\repos\MVC\obj\Debug\MVC.Form2.resources
+C:\Users\PC\source\repos\MVC\obj\Debug\MVC.Properties.Resources.resources
+C:\Users\PC\source\repos\MVC\obj\Debug\MVC.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\MVC\obj\Debug\MVC.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\MVC\bin\Debug\MVC.exe.config
+C:\Users\PC\source\repos\MVC\bin\Debug\MVC.exe
+C:\Users\PC\source\repos\MVC\bin\Debug\MVC.pdb
+C:\Users\PC\source\repos\MVC\obj\Debug\MVC.exe
+C:\Users\PC\source\repos\MVC\obj\Debug\MVC.pdb

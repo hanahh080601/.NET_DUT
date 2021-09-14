@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\obj\Debug\GK_102190161_Lê Hoàng Ngọc Hân.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\obj\Debug\GK_102190161_Lê_Hoàng_Ngọc_Hân.Form1.resources
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\obj\Debug\GK_102190161_Lê_Hoàng_Ngọc_Hân.Form2.resources
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\obj\Debug\GK_102190161_Lê_Hoàng_Ngọc_Hân.Properties.Resources.resources
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\obj\Debug\GK_102190161_Lê Hoàng Ngọc Hân.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\obj\Debug\GK_102190161_Lê Hoàng Ngọc Hân.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\bin\Debug\GK_102190161_Lê Hoàng Ngọc Hân.exe.config
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\bin\Debug\GK_102190161_Lê Hoàng Ngọc Hân.exe
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\bin\Debug\GK_102190161_Lê Hoàng Ngọc Hân.pdb
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\obj\Debug\GK_102190161_Lê Hoàng Ngọc Hân.exe
+C:\Users\PC\source\repos\GK_102190161_Lê Hoàng Ngọc Hân\obj\Debug\GK_102190161_Lê Hoàng Ngọc Hân.pdb

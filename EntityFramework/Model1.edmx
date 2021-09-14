@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="QLSVModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="LopSH">
+          <Key>
+            <PropertyRef Name="ID_Lop" />
+          </Key>
+          <Property Name="ID_Lop" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameLop" Type="nvarchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SV">
+          <Key>
+            <PropertyRef Name="MSSV" />
+          </Key>
+          <Property Name="MSSV" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="NameSV" Type="nvarchar" MaxLength="40" Nullable="false" />
+          <Property Name="Gender" Type="bit" />
+          <Property Name="NS" Type="datetime" />
+          <Property Name="ID_Lop" Type="int" />
+        </EntityType>
+        <Association Name="fk_id_lop">
+          <End Role="LopSH" Type="Self.LopSH" Multiplicity="0..1" />
+          <End Role="SV" Type="Self.SV" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LopSH">
+              <PropertyRef Name="ID_Lop" />
+            </Principal>
+            <Dependent Role="SV">
+              <PropertyRef Name="ID_Lop" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="QLSVModelStoreContainer">
+          <EntitySet Name="LopSH" EntityType="Self.LopSH" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SV" EntityType="Self.SV" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="fk_id_lop" Association="Self.fk_id_lop">
+            <End Role="LopSH" EntitySet="LopSH" />
+            <End Role="SV" EntitySet="SV" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QLSVModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="LopSH">
+          <Key>
+            <PropertyRef Name="ID_Lop" />
+          </Key>
+          <Property Name="ID_Lop" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameLop" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="SVs" Relationship="Self.fk_id_lop" FromRole="LopSH" ToRole="SV" />
+        </EntityType>
+        <EntityType Name="SV">
+          <Key>
+            <PropertyRef Name="MSSV" />
+          </Key>
+          <Property Name="MSSV" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NameSV" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Gender" Type="Boolean" />
+          <Property Name="NS" Type="DateTime" Precision="3" />
+          <Property Name="ID_Lop" Type="Int32" />
+          <NavigationProperty Name="LopSH" Relationship="Self.fk_id_lop" FromRole="SV" ToRole="LopSH" />
+        </EntityType>
+        <Association Name="fk_id_lop">
+          <End Role="LopSH" Type="Self.LopSH" Multiplicity="0..1" />
+          <End Role="SV" Type="Self.SV" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LopSH">
+              <PropertyRef Name="ID_Lop" />
+            </Principal>
+            <Dependent Role="SV">
+              <PropertyRef Name="ID_Lop" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="QLSVEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="LopSHes" EntityType="Self.LopSH" />
+          <EntitySet Name="SVs" EntityType="Self.SV" />
+          <AssociationSet Name="fk_id_lop" Association="Self.fk_id_lop">
+            <End Role="LopSH" EntitySet="LopSHes" />
+            <End Role="SV" EntitySet="SVs" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QLSVModelStoreContainer" CdmEntityContainer="QLSVEntities1">
+          <EntitySetMapping Name="LopSHes">
+            <EntityTypeMapping TypeName="QLSVModel.LopSH">
+              <MappingFragment StoreEntitySet="LopSH">
+                <ScalarProperty Name="ID_Lop" ColumnName="ID_Lop" />
+                <ScalarProperty Name="NameLop" ColumnName="NameLop" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SVs">
+            <EntityTypeMapping TypeName="QLSVModel.SV">
+              <MappingFragment StoreEntitySet="SV">
+                <ScalarProperty Name="MSSV" ColumnName="MSSV" />
+                <ScalarProperty Name="NameSV" ColumnName="NameSV" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="NS" ColumnName="NS" />
+                <ScalarProperty Name="ID_Lop" ColumnName="ID_Lop" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

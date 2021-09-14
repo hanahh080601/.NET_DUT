@@ -1,0 +1,16 @@
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\obj\Debug\QLMA.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\obj\Debug\QLMA.Form1.resources
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\obj\Debug\QLMA.Properties.Resources.resources
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\obj\Debug\QLMA.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\obj\Debug\QLMA.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\bin\Debug\QLMA.exe.config
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\bin\Debug\QLMA.exe
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\bin\Debug\QLMA.pdb
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\obj\Debug\QLMA.csproj.CopyComplete
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\obj\Debug\QLMA.exe
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\obj\Debug\QLMA.pdb
+C:\Users\PC\Desktop\DUT\Kì 4\.NET\CuoiKi\QLMA\obj\Debug\QLMA.Lehoangngochan_DF.resources

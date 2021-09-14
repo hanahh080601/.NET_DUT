@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\obj\Debug\BT3_102190161_LêHoàngNgọcHân.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\obj\Debug\BT3_102190161_LêHoàngNgọcHân.GUI.Form1.resources
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\obj\Debug\BT3_102190161_LêHoàngNgọcHân.GUI.Form2.resources
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\obj\Debug\BT3_102190161_LêHoàngNgọcHân.Properties.Resources.resources
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\obj\Debug\BT3_102190161_LêHoàngNgọcHân.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\obj\Debug\BT3_102190161_LêHoàngNgọcHân.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\bin\Debug\BT3_102190161_LêHoàngNgọcHân.exe.config
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\bin\Debug\BT3_102190161_LêHoàngNgọcHân.exe
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\bin\Debug\BT3_102190161_LêHoàngNgọcHân.pdb
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\obj\Debug\BT3_102190161_LêHoàngNgọcHân.exe
+C:\Users\PC\source\repos\BT3_102190161_LêHoàngNgọcHân\obj\Debug\BT3_102190161_LêHoàngNgọcHân.pdb

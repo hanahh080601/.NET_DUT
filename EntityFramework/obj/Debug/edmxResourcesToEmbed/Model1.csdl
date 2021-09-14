@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLSVModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="LopSH">
+    <Key>
+      <PropertyRef Name="ID_Lop" />
+    </Key>
+    <Property Name="ID_Lop" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameLop" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="SVs" Relationship="Self.fk_id_lop" FromRole="LopSH" ToRole="SV" />
+  </EntityType>
+  <EntityType Name="SV">
+    <Key>
+      <PropertyRef Name="MSSV" />
+    </Key>
+    <Property Name="MSSV" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NameSV" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Gender" Type="Boolean" />
+    <Property Name="NS" Type="DateTime" Precision="3" />
+    <Property Name="ID_Lop" Type="Int32" />
+    <NavigationProperty Name="LopSH" Relationship="Self.fk_id_lop" FromRole="SV" ToRole="LopSH" />
+  </EntityType>
+  <Association Name="fk_id_lop">
+    <End Role="LopSH" Type="Self.LopSH" Multiplicity="0..1" />
+    <End Role="SV" Type="Self.SV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LopSH">
+        <PropertyRef Name="ID_Lop" />
+      </Principal>
+      <Dependent Role="SV">
+        <PropertyRef Name="ID_Lop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLSVEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="LopSHes" EntityType="Self.LopSH" />
+    <EntitySet Name="SVs" EntityType="Self.SV" />
+    <AssociationSet Name="fk_id_lop" Association="Self.fk_id_lop">
+      <End Role="LopSH" EntitySet="LopSHes" />
+      <End Role="SV" EntitySet="SVs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
